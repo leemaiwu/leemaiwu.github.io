@@ -157,3 +157,14 @@ body {
 :hover#profile-link {
     text-decoration: underline;
 }
+
+#github-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 16.4px;
+}
+
+:hover#github-link {
+    text-decoration: underline;
+}
