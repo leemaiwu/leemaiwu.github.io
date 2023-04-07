@@ -40,7 +40,7 @@ body {
     height: 39px;
 }
 
-.home-hav-titles {
+.home-nav-titles {
     display: flex;
     flex-wrap: wrap;
     gap: 35px;
@@ -114,7 +114,7 @@ body {
     justify-content: center;
     position: absolute;
     margin-top: 100px;
-    margin-left: 31vw;
+    margin-left: 30vw;
     font-family: "Gill Sans", sans-serif;
     font-weight: 300;
     font-stretch: expanded;
@@ -125,8 +125,8 @@ body {
 #author {
     justify-content: center;
     position: absolute;
-    margin-top: 150px;
-    margin-left: 54vw;
+    margin-top: 145px;
+    margin-left: 56vw;
     font-family: "Gill Sans", sans-serif;
     font-weight: 300;
     font-stretch: expanded;
@@ -153,10 +153,19 @@ body {
     color: black;
     font-size: 1rem;
     margin-bottom: 16.4px;
+    padding-right: 10px;
 }
 
 :hover#profile-link {
     text-decoration: underline;
+}
+
+#short-profile-link {
+    display: none;
+}
+
+.footer-divider {
+    margin-bottom: 3px;
 }
 
 #github-link {
@@ -164,10 +173,17 @@ body {
     color: black;
     font-size: 1rem;
     margin-bottom: 16.4px;
+    padding-left: 10px;
 }
 
 :hover#github-link {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+    #home-navigation {
+        font-size: .5rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -196,18 +212,29 @@ body {
         footer {
             justify-content: flex;
             flex-direction: row;
-            margin-left: 20px;
-            margin-right: 20px;
+            margin: 0;
         }
         #copyright {
             font-size: 0.8rem;
+            margin-left: 53px;
+            width: 270px;
         }
         #profile-link {
+            display: none;
+        }
+        #short-profile-link {
+            display: block;
             font-size: 0.8rem;
-            padding-top: 10px;
+            text-decoration: none;
+            color: black;
+            padding-bottom: 20px;
         }
         #github-link {
             font-size: 0.8rem;
+            padding-bottom: 4.2px;
+        }
+        .footer-divider {
+            display: none;
         }
     }
 }
