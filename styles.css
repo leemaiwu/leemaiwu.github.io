@@ -3,6 +3,7 @@
 body {
     margin: 0;
     overflow-x: hidden;
+    font-size: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -167,4 +168,46 @@ body {
 
 :hover#github-link {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+    #header-name {
+        font-size: 1.8rem;
+        margin-top: 39px;
+    }
+    #header-des {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #quote {
+        font-size: 0.9rem;
+        margin-left: 50px;
+    }
+    #author {
+        font-size: 0.8rem;
+        margin-left: 160px;
+    }
+}
+
+@supports (display: flex) {
+    @media screen and (max-width: 480px) {
+        footer {
+            justify-content: flex;
+            flex-direction: row;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        #copyright {
+            font-size: 0.8rem;
+        }
+        #profile-link {
+            font-size: 0.8rem;
+            padding-top: 10px;
+        }
+        #github-link {
+            font-size: 0.8rem;
+        }
+    }
 }
