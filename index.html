@@ -21,21 +21,19 @@
 
     <div class="home-navigation">
         <div class="home-nav-titles">
-            <a href="index.html" target="_self" id="NavigateHome">Home</a>
-            <a href="about.html" target="_self" id="NavigateAbout">About</a>
-            <a href="index.html" target="_self" id="NavigateContact">Contact</a>
-            <a href="index.html" target="_self" id="NavigateProjects">Projects</a>
+            <!-- <a href="index.html" target="_self" id="NavigateHome">Home</a> -->
+            <a href="#header-about" target="_self" id="NavigateAbout">About</a>
+            <a href="#contact-section" target="_self" id="NavigateContact">Contact</a>
+            <a href="#header-project" target="_self" id="NavigateProjects">Projects</a>
         </div>
     </div>
 
     <div class="home-image-class">
-        <!-- <img class="home-image" alt="AbstractImage" src="/images/background/homebackground.png"> -->
-        <img class="home-image" alt="AbstractImage" src="/images/background/about_me_image.png">
+        <div class="name-header">
+            <h1 id="header-name">Laura Wu</h1>
+        </div>
+        <img class="home-image" alt="AbstractImage" src="https://github.com/leemaiwu/leemaiwu.github.io/blob/main/images/background/about_me_image.png?raw=true">
     </div>
-<!-- 
-    <div class="name-header">
-        <h1 id="header-name">Laura Wu</h1>
-    </div> -->
         
     <div class="description-header">
         <h4 id="header-des">Explore My Work in Web Development</h4>
@@ -59,18 +57,22 @@
         My enthusiasm for the tech industry largely stems from its constant growth. This presents an endless opportunity for learning and development. Let's build exceptional things together!</p>
     </div>
 
-    <div class="contact-space">
+    <div class="contact-space" id="contact-section">
         <div class="contact-outline"></div>
             <h1 id="contact">Contact</h1>
-            <div class="contact-inputs">
-                <input type="text" />
-                <input type="text" />
-            </div>
+            <form class="contact-form">
+                <div class="contact-inputs">
+                    <input type="text" id="contact-field" placeholder="Name"/>
+                    <input type="text" id="contact-field" placeholder="Email"/>
+                </div>
+                <textarea type="text" id="contact-text" placeholder="Message"></textarea>
+                <button class="contact-button">Send</button>
+            </form>
     </div>
 
-    <h1 id="header-about">Projects</h1>
-    <div class="about-me">
-        <p></p>
+    <h1 id="header-project">Projects</h1>
+    <div class="project-section">
+        <img class="project-image" alt="AbstractImage" src="/images/background/homebackground.png">
     </div>
 
     <footer>
