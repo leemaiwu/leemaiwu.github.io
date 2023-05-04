@@ -55,26 +55,6 @@ body {
     align-content: center;
 }
 
-#NavigateHome {
-    display: inline-block;
-    position: relative;
-    text-decoration-line: none;
-    color: black;
-}#NavigateHome::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    right: 0;
-    background-color: black;
-    transform: scaleX(0);
-    transform-origin: bottom center;
-    transition: transform 0.25s ease-out;
-}#NavigateHome:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom center;
-}
 #NavigateAbout {
     display: inline-block;
     position: relative;
@@ -137,18 +117,38 @@ body {
 }
 
 /*/  Home Image 1  //*/
+.home-image-class {
+    display: flex;
+    box-sizing: content-box;
+    position: relative;
+    width: 100vw;
+}
+
 .home-image {
     display: -webkit-flex;
     margin-left: auto;
+    position: relative;
     width: 60vw;
-  }
+    z-index: -5;
+}
+
+.name-stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
 
   /*/  Name  //*/
 .name-header {
-    position: absolute;
-    align-items: center;
-    margin-left: 15vw;
-    margin-top: 20vw;
+    display: inline-flex;
+    /* position: relative; */
+    /* align-items: center; */
+    /* flex-wrap: nowrap; */
+    /* position: absolute; */
+    /* margin-left: 15vw;
+    margin-top: 20vw; */
 }
 
 #header-name {
@@ -156,10 +156,30 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Raleway', sans-serif;
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    font-size: 4vw;
     text-transform: uppercase;
+    margin-left: 10vw;
     color:  rgb(0, 0, 0);
     letter-spacing: 1px;
+}
+
+/*/ Stack Dec Logo /*/
+.logo {
+    display: flex;
+    /* align-items: center; */
+    /* position: absolute; */
+    /* flex-direction: row; */
+    gap: 2vw;
+    margin-left: 8vw;
+    /* margin-top: 18vh; */
+}
+
+#react-logo {
+    width: 2.8vw;
+    filter: opacity(50%);
+    -webkit-filter: opacity(45%);
+    background-color: rgb(255, 255, 255);
 }
 
 /*/  Description  //*/
@@ -184,7 +204,7 @@ body {
     font-stretch:extra-expanded;
     font-weight: lighter;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 2.3vw;
     color:  rgb(0, 0, 0);
 }
 
@@ -237,6 +257,7 @@ body {
     font-stretch:extra-expanded;
     font-weight: lighter;
     text-transform: uppercase;
+    /* font-size: 2rem; */
     font-size: 2rem;
     padding-top: 40px;
     color:  rgb(0, 0, 0);
@@ -369,7 +390,36 @@ body {
 }
 
 .project-image {
-    width: 100vw;
+    width: 50vw;
+    justify-content: center;
+}
+
+.youtube-embed {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 50px;
+    /* filter: opacity(50%);
+    -webkit-filter: opacity(45%); */
+}
+
+.youtube-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#github-icon {
+    width: 22px;
+}:hover#github-icon {
+    cursor: pointer;
+}
+
+#restaurant-github {
+    color: black;
+    text-decoration: none;
 }
 
 /*/  Footer  //*/
@@ -430,12 +480,11 @@ body {
 
 @media screen and (max-width: 480px) {
     #header-name {
-        font-size: 1.5rem;
         margin-top: 39px;
     }
-    #header-des {
+    /* #header-des {
         font-size: 0.8rem;
-    }
+    } */
 }
 
 @media screen and (max-width: 480px) {
@@ -468,14 +517,20 @@ body {
             justify-content: center;
             margin: 0;
         }
+        #header-des {
+            font-size: .75rem;
+        }
         #header-about {
-            font-size: 1.5rem;
+            font-size: 1.1rem;
         }
         #contact {
-            font-size: 1.5rem;
+            font-size: 1.1rem;
         }
         #header-about {
-            font-size: 1.5rem;
+            font-size: 1.1rem;
+        }
+        #header-project {
+            font-size: 1.1rem;
         }
         #home-logo {
             width: 55px;
@@ -519,12 +574,19 @@ body {
         .name-header {
             margin-left: 5vw;
         }
-        .home-image {
+        #header-name {
+            font-size: 1rem;
+        }
+        .logo {
+            margin-left: 15vw;
+        }
+        /* .home-image {
             display: -webkit-flex;
             margin-left: auto;
             width: 85vw;
-          }
-          #contact-field {
+            z-index: -1;
+          } */
+        #contact-field {
             width: 120px;
         }
         
@@ -540,4 +602,9 @@ body {
         margin-left: auto;
         width: 50vw;
       }
+      /* .logo {
+        margin-left: 13.5vw;
+        margin-top: 10vw;
+        gap: 1.72vw;
+    } */
 }
