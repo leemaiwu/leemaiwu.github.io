@@ -617,50 +617,44 @@ body {
 }
 
 
-/*/ circle /*/
+/*/ square /*/
 .stack-container {
     display: flex;
     /* justify-content: center; */
     width: 100vw;
 }
 
-.circle {
+.square {
     position: absolute;
-    transform: translateY(-50%);
     width: 4vw;
     height: 4vw;
-    border-radius: 50%;
-    /* background-color: rgba(0, 0, 0, 0); */
-    /* box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.2); */
+    border-radius: 1px;
+    margin-top: -2%;
     background-color: transparent;
-    border: 1px solid rgb(147, 147, 147);
+    border: 1px solid rgba(147, 147, 147, 0.764);
     animation: roll 4s linear infinite;
   }
   
   @keyframes roll {
     0% {
       opacity: 0;
-      transform: translateX(0vw) translateY(-50%);
+      transform: translateX(0vw) rotate(0deg) translateY(0%);
     }
     25% {
       opacity: 1;
-      /* background-color: rgba(0, 0, 0, 0.3); */
-      transform: translateX(12vw) translateY(-50%);
+      transform: translateX(25vw) rotate(180deg) translateY(0%);
     }
     50% {
         opacity: 1;
-        /* background-color: rgba(0, 0, 0, 0.3); */
-        transform: translateX(50vw) translateY(-50%);
+        transform: translateX(50vw) rotate(360deg) translateY(0%);
       }
     75% {
       opacity: 1;
-      /* background-color: rgba(0, 0, 0, 0.3); */
-      transform: translateX(75vw) translateY(-50%);
+      transform: translateX(75vw) rotate(540deg) translateY(0%);
     }
     100% {
       opacity: 0;
-      /* background-color: rgba(0, 0, 0, 0); */
-      transform: translateX(100vw) translateY(-50%);
+      transform: translateX(100vw) rotate(720deg) translateY(0%);
     }
   }
   
