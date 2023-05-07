@@ -539,6 +539,9 @@ body {
         .quote-space {
             height: 200px;
         }
+        #quote {
+            padding: 0px 20px;
+        }
         #long-copyright {
             display: none;
         }
