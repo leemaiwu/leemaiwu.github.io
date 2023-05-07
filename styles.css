@@ -172,7 +172,7 @@ body {
     /* position: absolute; */
     /* flex-direction: row; */
     gap: 2vw;
-    margin-left: 8vw;
+    margin-left: 9vw;
     /* margin-top: 18vh; */
 }
 
@@ -495,21 +495,10 @@ body {
     } */
 }
 
-@media screen and (max-width: 480px) {
-    #quote {
-        font-size: 0.9rem;
-        margin-left: 50px;
-    }
-    #author {
-        font-size: 0.8rem;
-        margin-left: 160px;
-    }
-}
-
 @media screen and (max-width: 774px) {
     #quote {
         font-size: 0.9rem;
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
     #author {
         font-size: 0.8rem;
@@ -544,8 +533,8 @@ body {
         #home-logo {
             width: 55px;
             height: 35px;
-            padding-top: 20px;
-            padding-bottom: 20px;
+            padding-top: 10px;
+            padding-bottom: 6px;
         }
         .quote-space {
             height: 200px;
@@ -591,6 +580,10 @@ body {
         }
         .logo {
             margin-left: 15vw;
+            margin-top: -15px;
+        }
+        #react-logo {
+            margin-top: 5px;
         }
         /* .home-image {
             display: -webkit-flex;
