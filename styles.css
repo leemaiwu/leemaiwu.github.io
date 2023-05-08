@@ -362,6 +362,12 @@ body {
     resize: none;
 }
 
+.button-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contact-button {
     display: flex;
     justify-content: center;
