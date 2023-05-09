@@ -172,6 +172,7 @@ body {
     /* position: absolute; */
     /* flex-direction: row; */
     gap: 2vw;
+    margin-top: -1vw;
     margin-left: 9vw;
     /* margin-top: 18vh; */
 }
@@ -595,6 +596,7 @@ body {
             margin-top: -20px;
         }
         #react-logo {
+            width: 3.3vw;
             margin-top: 5px;
         }
         /* .home-image {
