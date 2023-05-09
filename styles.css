@@ -585,11 +585,14 @@ body {
             margin-left: 5vw;
         }
         #header-name {
-            font-size: 1rem;
+            font-size: 1.2rem;
+            flex-wrap: wrap;
+            margin-left: 5vw;
+            /* width: 100vw; */
         }
         .logo {
-            margin-left: 15vw;
-            margin-top: -15px;
+            margin-left: 10vw;
+            margin-top: -20px;
         }
         #react-logo {
             margin-top: 5px;
