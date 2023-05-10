@@ -69,7 +69,12 @@
     <div class="contact-space" id="contact-section">
         <div class="contact-outline"></div>
         <h1 id="contact">Contact</h1>
-        <form class="contact-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfKpCzAJoQ1WJo887jkWqpivP47RjvStkxY4lhogJSWKvU9NQ/formResponse" method="POST" target="hidden_iframe" onSubmit="submitted=true;">
+        <script>
+            function sendInquiry() {
+                alert("Thank you for your message! I'll be in touch shortly.\nHave a wonderful day! \uD83D\uDE0A")
+            }
+        </script>
+        <form class="contact-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfKpCzAJoQ1WJo887jkWqpivP47RjvStkxY4lhogJSWKvU9NQ/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true, sendInquiry()">
             <div class="contact-inputs">
                 <input type="text" name="entry.1584091510" id="contact-field" placeholder="Name" required/>
                 <input type="email" name="entry.1198874606" id="contact-field" placeholder="Email" required/>
@@ -84,6 +89,7 @@
     <h1 id="header-project">Projects</h1>
     <div class="project-section">
         <!-- <img class="project-image" alt="AbstractImage" src="/images/background/homebackground.png"> -->
+        <!-- Chinese character for thank you:  \u8B1D\u8B1D\! -->
         <div class="youtube-embed">
             <iframe width="565" height="300" src="https://www.youtube.com/embed/1sWL6roOwZg" title="Restaurant - Devmountain Foundations Capstone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -96,7 +102,7 @@
     <footer>
         <div id="copyright">
             <p id="long-copyright">© 2023 by Laura Wu.</p>
-            <p id="short-copyright">© 2023 by Laura Wu.</p>
+            <p id="short-copyright">© 2023 Laura Wu.</p>
             <p style="margin-left:.6em"> </p>
             <a target="_blank" href="https://www.linkedin.com/in/laura-wu-ut/" id="profile-link">View LinkedIn Profile</a>
             <a target="_blank" href="https://www.linkedin.com/in/laura-wu-ut/" id="short-profile-link">LinkedIn</a>
@@ -107,6 +113,6 @@
         </div>
     </footer>
 
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onLoad="if(submitted) {window.location='index.html'}"></iframe>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onLoad="if(typeof submitted !== 'undefined' && submitted) {window.location='index.html'}"></iframe>
 </body>
 </html>

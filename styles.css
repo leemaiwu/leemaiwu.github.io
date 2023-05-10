@@ -144,12 +144,6 @@ body {
   /*/  Name  //*/
 .name-header {
     display: inline-flex;
-    /* position: relative; */
-    /* align-items: center; */
-    /* flex-wrap: nowrap; */
-    /* position: absolute; */
-    /* margin-left: 15vw;
-    margin-top: 20vw; */
 }
 
 #header-name {
@@ -168,13 +162,9 @@ body {
 /*/ Stack Dec Logo /*/
 .logo {
     display: flex;
-    /* align-items: center; */
-    /* position: absolute; */
-    /* flex-direction: row; */
     gap: 2vw;
     margin-top: -1vw;
     margin-left: 9vw;
-    /* margin-top: 18vh; */
 }
 
 #react-logo {
@@ -195,11 +185,6 @@ body {
 }
 
 #header-des {
-    /* font-family: "Audiowide", sans-serif;
-    font-weight: lighter;
-    font-stretch: expanded;
-    font-size: 1.12rem;
-    letter-spacing: 1px; */
     display: flex;
     justify-content: center;
     font-family: "Gill Sans", sans-serif;
@@ -233,10 +218,6 @@ body {
 } */
 
 #quote {
-    /* justify-content: center; */
-    /* position: relative; */
-    /* margin-top: 100px; */
-    /* margin-left: 30vw; */
     font-family: "Gill Sans", sans-serif;
     font-weight: 300;
     font-stretch: expanded;
@@ -246,9 +227,6 @@ body {
 }
 
 #author {
-    /* justify-content: center; */
-    /* position: relative; */
-    /* margin-top: 145px; */
     margin-left: 12vw;
     font-family: "Gill Sans", sans-serif;
     font-weight: 300;
@@ -294,11 +272,9 @@ body {
 }
 
 .contact-outline {
-    /* display: flex; */
     position: absolute;
     align-self: center;
     margin-top: 20px;
-    /* justify-content: center; */
     border: solid 1px rgba(162, 162, 162, 0.486);
     width: 80vw;
     height: 300px;
@@ -308,12 +284,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* position: absolute; */
     font-family: "Gill Sans", sans-serif;
     font-stretch:extra-expanded;
     font-weight: lighter;
     text-transform: uppercase;
-    /* height: 300px; */
     margin-top: -40px;
     margin-bottom: 24px;
     font-size: 2rem;
@@ -325,10 +299,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin-top: 20px; */
     width: 100vw;
-    /* height: 100px; */
-    /* margin: 10px 0; */
     gap: 30px;
     z-index: 5;
     padding: 10px 0;
@@ -337,7 +308,6 @@ body {
 .contact-inputs {
     display: flex;
     align-self: center;
-    /* flex-direction: column; */
     gap: 30px;
 }
 
@@ -414,8 +384,6 @@ body {
     justify-content: center;
     background-color: white;
     margin-top: 50px;
-    /* filter: opacity(50%);
-    -webkit-filter: opacity(45%); */
 }
 
 .youtube-github {
@@ -497,15 +465,11 @@ body {
     #header-name {
         margin-top: 39px;
     }
-    /* #header-des {
-        font-size: 0.8rem;
-    } */
 }
 
 @media screen and (max-width: 774px) {
     #quote {
         font-size: 0.9rem;
-        /* margin-left: 50px; */
     }
     #author {
         font-size: 0.8rem;
@@ -557,7 +521,6 @@ body {
         }
         #copyright {
             font-size: 0.8rem;
-            /* margin-left: 53px; */
             width: 270px;
         }
         #profile-link {
@@ -589,7 +552,6 @@ body {
             font-size: 1.2rem;
             flex-wrap: wrap;
             margin-left: 5vw;
-            /* width: 100vw; */
         }
         .logo {
             margin-left: 10vw;
@@ -599,12 +561,6 @@ body {
             width: 3.3vw;
             margin-top: 5px;
         }
-        /* .home-image {
-            display: -webkit-flex;
-            margin-left: auto;
-            width: 85vw;
-            z-index: -1;
-          } */
         #contact-field {
             width: 120px;
         }
@@ -620,18 +576,12 @@ body {
         margin-left: auto;
         width: 50vw;
       }
-      /* .logo {
-        margin-left: 13.5vw;
-        margin-top: 10vw;
-        gap: 1.72vw;
-    } */
 }
 
 
 /*/ square /*/
 .stack-container {
     display: flex;
-    /* justify-content: center; */
     width: 100vw;
 }
 
