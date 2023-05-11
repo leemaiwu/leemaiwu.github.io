@@ -12,17 +12,20 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
-    height: 10px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: rgb(221, 221, 221);
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: rgba(187, 187, 187, 0.778);
-  }
+    width: 15px;
+}
+
+    ::-webkit-scrollbar-thumb {
+        background: rgb(198, 198, 198);
+        border: solid 3px rgb(240, 240, 240);
+        border-radius: 10px;
+    }::-webkit-scrollbar-thumb:hover {
+        background: rgb(172, 172, 172);
+    }
+
+    ::-webkit-scrollbar-track {
+        background: rgba(240, 240, 240);
+    }
 
 /*/  Top of Page Logo  //*/
 .home-logo {
