@@ -51,10 +51,10 @@ body {
 .home-nav-titles {
     display: flex;
     flex-wrap: wrap;
-    gap: 55px;
+    gap: 10vw;
     font-family: "Audiowide", sans-serif;
     font-weight: lighter;
-    font-size: .92rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     align-content: center;
 }
@@ -155,7 +155,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-family: 'Raleway', sans-serif;
     /* font-size: 3rem; */
-    font-size: 4vw;
+    font-size: 3.5vw;
     text-transform: uppercase;
     margin-left: 10vw;
     color:  rgb(0, 0, 0);
@@ -194,7 +194,7 @@ body {
     font-stretch:extra-expanded;
     font-weight: lighter;
     text-transform: uppercase;
-    font-size: 2.3vw;
+    font-size: 2vw;
     color:  rgb(0, 0, 0);
 }
 
@@ -205,6 +205,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
     background-color: rgba(226, 226, 226, 0.572);
     height: 300px;
 }
@@ -224,7 +225,6 @@ body {
     font-family: "Gill Sans", sans-serif;
     font-weight: 300;
     font-stretch: expanded;
-    font-size: 1.5rem;
     letter-spacing: 1.2px;
     z-index: 10;
 }
@@ -234,7 +234,6 @@ body {
     font-family: "Gill Sans", sans-serif;
     font-weight: 300;
     font-stretch: expanded;
-    font-size: 1.4rem;
     letter-spacing: 1.2px;
     z-index: 10;
 }
@@ -458,25 +457,23 @@ body {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 480px) {
-    #home-navigation {
-        font-size: .5rem;
+/* @media screen and (max-width: 480px) {
+    #home-nav-titles {
+        font-size: .75rem;
+        gap: 10px;
     }
-}
+} */
 
-@media screen and (max-width: 480px) {
-    #header-name {
-        margin-top: 39px;
-    }
-}
-
-@media screen and (max-width: 774px) {
+@media screen and (max-width: 750px) {
     #quote {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
     #author {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
         margin-left: 160px;
+    }
+    #header-des {
+        font-size: 0.95rem;
     }
 }
 
@@ -490,7 +487,7 @@ body {
             margin: 0;
         }
         #header-des {
-            font-size: .75rem;
+            font-size: 0.95rem;
         }
         #header-about {
             font-size: 1.1rem;
@@ -512,8 +509,6 @@ body {
         }
         .quote-space {
             height: 200px;
-        }
-        #quote {
             padding: 0px 20px;
         }
         #long-copyright {
