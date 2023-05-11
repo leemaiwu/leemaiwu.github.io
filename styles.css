@@ -11,7 +11,7 @@ body {
     font-size: 100%;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 15px;
 }
 
@@ -25,7 +25,7 @@ body {
 
     ::-webkit-scrollbar-track {
         background: rgba(240, 240, 240);
-    }
+    } */
 
 /*/  Top of Page Logo  //*/
 .home-logo {
@@ -44,19 +44,19 @@ body {
 .home-navigation {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100vw;
     background-color: rgba(226, 226, 226, 0.572);
     height: 39px;
 }
 
 .home-nav-titles {
     display: flex;
-    flex-wrap: wrap;
     gap: 10vw;
     font-family: "Audiowide", sans-serif;
     font-weight: lighter;
     font-size: 1rem;
     letter-spacing: 1px;
-    align-content: center;
 }
 
 #NavigateAbout {
