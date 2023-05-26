@@ -313,6 +313,10 @@ body {
     gap: 30px;
 }
 
+input:focus {
+    outline: none;
+}
+
 #contact-field {
     background: transparent;
     border: none;
