@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Trirong');
+@font-face {
+    font-family: "Handwriting Halimun";
+    src: url("/fonts/Halimun.ttf") format("truetype");
+  }
 
 html {
     scroll-behavior: smooth;
@@ -34,10 +38,9 @@ body {
 }
 
 #home-logo {
-    width: 80px;
-    height: 55px;
-    padding-top: 10px;
-    padding-bottom: 8px;
+    width: 130px;
+    /* height: 55px; */
+    padding: 5px 0px;
 }
 
 /*/  Home Navigation  //*/
@@ -153,11 +156,13 @@ body {
     font-family: 'Lexend Peta', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
+    font-family: "Handwriting Halimun", sans-serif;
+    font-weight: lighter;
     /* font-size: 3rem; */
     font-size: 3.5vw;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin-left: 10vw;
-    color:  rgb(0, 0, 0);
+    color:  rgb(69, 69, 69);
     letter-spacing: 1px;
 }
 
@@ -550,8 +555,6 @@ input:focus {
             margin-left: 5vw;
         }
         #header-name {
-            font-size: 1.2rem;
-            flex-wrap: wrap;
             margin-left: 5vw;
         }
         .logo {
