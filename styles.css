@@ -400,13 +400,35 @@ input:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.youtube-description-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.youtube-description-foodx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
     margin-top: 10px;
 }
 
 #github-icon {
     width: 22px;
 }:hover#github-icon {
+    cursor: pointer;
+}
+
+#foodx-icon {
+    width: 32px;
+}:hover#foodx-icon {
     cursor: pointer;
 }
 
