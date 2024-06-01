@@ -305,6 +305,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 100vw;
     gap: 30px;
     z-index: 5;
@@ -325,14 +326,21 @@ input:focus {
     background: transparent;
     border: none;
     line-height: 30px;
-    width: 165px;
+    width: 185px;
     border-bottom: 1px solid grey;
     font-size: 1rem;
 }
 
+#contact-field::placeholder{
+    color: rgba(0, 0, 0, 0.33);
+}
+
 #contact-text {
     display: flex;
-    width: 360px;
+    /* width: 360px; */
+    width: 50%;
+    max-width: 950px;
+    min-width: 408px;
     height: 120px;
     padding: 2px 5px;
     align-self: center;
@@ -538,9 +546,6 @@ input:focus {
         #header-about {
             font-size: 1.1rem;
         }
-        #contact {
-            font-size: 1.1rem;
-        }
         #header-about {
             font-size: 1.1rem;
         }
@@ -603,8 +608,14 @@ input:focus {
             width: 3.3vw;
             margin-top: 5px;
         }
+        #contact {
+            font-size: 1.1rem;
+        }
+        .contact-outline {
+            display: none;
+        }
         #contact-field {
-            width: 120px;
+            width: 140px;
         }
         #contact-text {
             width: 264px;
@@ -612,14 +623,13 @@ input:focus {
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 540px) {
     .home-image {
         display: -webkit-flex;
         margin-left: auto;
         width: 50vw;
       }
 }
-
 
 /*/ square /*/
 .stack-container {
