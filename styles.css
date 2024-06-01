@@ -194,6 +194,7 @@ body {
 #header-des {
     display: flex;
     justify-content: center;
+    text-align: center;
     font-family: "Gill Sans", sans-serif;
     font-stretch:extra-expanded;
     font-weight: lighter;
@@ -340,7 +341,7 @@ input:focus {
     /* width: 360px; */
     width: 50%;
     max-width: 950px;
-    min-width: 408px;
+    min-width: 180px;
     height: 120px;
     padding: 2px 5px;
     align-self: center;
