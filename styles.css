@@ -497,8 +497,16 @@ input:focus {
     display: none;
 }
 
-.footer-divider {
-    margin-bottom: 3px;
+:hover#short-profile-link {
+    text-decoration: underline;
+}
+
+.first-copyright-dot {
+    padding-left: 8px;
+}
+
+.second-copyright-dot {
+    padding-right: 5px;
 }
 
 #github-link {
@@ -506,7 +514,7 @@ input:focus {
     color: black;
     font-size: 1rem;
     margin-bottom: 16px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 :hover#github-link {
@@ -582,11 +590,13 @@ input:focus {
             font-size: 0.8rem;
             text-decoration: none;
             color: black;
-            padding-bottom: 14px;
+            padding-bottom: 13px;
+            padding-right: 5px;
         }
         #github-link {
             font-size: 0.8rem;
-            margin-bottom: 14px;
+            margin-bottom: 13px;
+            padding-left: 0px;
         }
         .footer-divider {
             display: none;
@@ -621,6 +631,12 @@ input:focus {
         }
         #contact-text {
             width: 264px;
+        }
+
+        .brainstorm-image {
+            max-width: 400px;
+            height: auto;
+            box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.1);
         }
     }
 }
@@ -673,3 +689,115 @@ input:focus {
     }
   }
   
+
+
+
+
+.project-entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#header-project {
+    font-family: "Gill Sans", sans-serif;
+    font-stretch: extra-expanded;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-thumbnail {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 6px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.project-link p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    color: rgb(60, 60, 60);
+}
+
+
+
+/* best friends page */
+
+.bestfriend-main {
+    padding: 1rem 8vw;
+}
+
+.bestfriend-header {
+    display: flex;
+    justify-content: center;
+    font-family: "Gill Sans", sans-serif;
+    font-stretch: extra-expanded;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-top: 40px;
+    color:  rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+}
+
+.bestfriend-sub-header {
+    letter-spacing: 0.25px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+.bestfriend-text {
+    letter-spacing: 0.25px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+}
+
+.gallery-image {
+    width: 400px;
+    margin: 2px;
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.brainstorm-image {
+    height: 242.5px;
+    width: auto;
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wireframe-image {
+    width: 280px;
+    margin: 2px;
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.figma-prototype {
+    display: block;
+    justify-content: center;
+    font-family: sans-serif;
+    /* font-stretch:extra-expanded; */
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    padding-top: 20px;
+    color:  rgb(0, 0, 0);
+    letter-spacing: 1px;
+
+}
+
