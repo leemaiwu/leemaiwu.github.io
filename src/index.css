@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Quicksand:wght@300;400;500&family=Raleway:wght@100;200;300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Handwriting Halimun";
+  src: url("/fonts/Halimun.ttf") format("truetype");
+  font-display: swap;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply text-gray-800 bg-white;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Header Styles */
+.home-logo {
+  @apply flex justify-center py-2;
+}
+
+#home-logo {
+  @apply w-32 transition-transform duration-300 hover:scale-105;
+}
+
+.home-navigation {
+  @apply flex justify-center items-center w-full h-10;
+}
+
+.home-nav-titles {
+  @apply flex gap-10 text-base tracking-wide;
+}
+
+.home-nav-titles a {
+  @apply relative text-gray-800 no-underline transition-colors duration-200 hover:text-gray-600;
+}
+
+.home-nav-titles a::after {
+  content: '';
+  @apply absolute w-full h-px bottom-0 right-0 bg-gray-800 scale-x-0 origin-center transition-transform duration-200;
+}
+
+.home-nav-titles a:hover::after {
+  @apply scale-x-100;
+}
+
+/* Hero Section */
+.home-image-class {
+  @apply flex relative w-full;
+}
+
+.home-image {
+  @apply ml-auto relative w-3/5 -z-10;
+}
+
+.name-stack {
+  @apply flex flex-col justify-center items-center w-full;
+}
+
+.name-header {
+  @apply inline-flex;
+}
+
+#header-name {
+  font-family: "Handwriting Halimun", sans-serif;
+  @apply text-[3.5vw] ml-[10vw] text-gray-600 tracking-wide font-light;
+}
+
+.logo {
+  @apply flex gap-[2vw] -mt-[1vw] ml-[9vw];
+}
+
+#react-logo {
+  @apply w-[2.8vw] opacity-45 bg-white transition-opacity duration-200 hover:opacity-70;
+}
+
+/* Description */
+.description-header {
+  @apply flex justify-center items-center my-2;
+}
+
+#header-des {
+  font-family: "Gill Sans", sans-serif;
+  @apply text-[2vw] font-light uppercase tracking-wide text-center;
+}
+
+/* Quote Section */
+.quote-space {
+  @apply flex flex-wrap flex-col justify-center items-center text-2xl bg-gray-100/60 h-[300px];
+}
+
+#quote {
+  @apply font-light tracking-wider z-10;
+}
+
+#author {
+  @apply ml-[12vw] font-light tracking-wider z-10;
+}
+
+/* About Section */
+#header-about {
+  @apply flex justify-center font-light uppercase text-2xl pt-10 tracking-wider;
+}
+
+.about-me {
+  @apply flex justify-center px-[150px] tracking-wide text-lg leading-relaxed;
+}
+
+/* Contact Section */
+.contact-space {
+  @apply flex box-border justify-center flex-col bg-gray-100/60 mt-12 pt-5 h-[440px] w-full;
+}
+
+.contact-outline {
+  @apply absolute self-center mt-5 pt-[50px] border border-gray-400/50 w-4/5 h-[300px];
+}
+
+#contact {
+  @apply flex justify-center items-start font-light uppercase text-2xl tracking-wider;
+}
+
+.contact-form {
+  @apply flex flex-col justify-center items-center w-full gap-8 z-10 py-2;
+}
+
+.contact-inputs {
+  @apply flex self-center gap-8;
+}
+
+#contact-field {
+  @apply bg-transparent border-none leading-[30px] w-[185px] border-b border-gray-500 focus:outline-none;
+}
+
+#contact-field::placeholder {
+  @apply text-black/30;
+}
+
+#contact-text {
+  @apply w-1/2 max-w-[950px] min-w-[180px] h-[150px] p-2 self-center border border-gray-400 resize-none focus:outline-none focus:border-gray-600 transition-colors duration-200;
+}
+
+.contact-button {
+  @apply flex justify-center self-center items-center w-[150px] h-[30px] my-0.5 tracking-wide border-none rounded-[20px] shadow-md bg-white text-gray-700 transition-all duration-200 hover:shadow-lg hover:bg-gray-50;
+}
+
+/* Project Section */
+.project-thumbnail {
+  @apply w-full max-w-[550px] h-auto rounded shadow-md mb-2.5 transition-transform duration-200 hover:scale-105;
+}
+
+/* Footer */
+#copyright {
+  @apply flex flex-row justify-center items-end h-40 font-light text-base tracking-wide mb-5;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 750px) {
+  #quote, #author {
+    @apply text-lg;
+  }
+  #header-des {
+    @apply text-base;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .about-me {
+    @apply px-12 text-base;
+  }
+  #header-name {
+    @apply ml-5;
+  }
+  .logo {
+    @apply ml-10 -mt-5;
+  }
+  #react-logo {
+    @apply w-[3.3vw] mt-1;
+  }
+  .contact-space {
+    @apply pt-16 h-[400px];
+  }
+  .contact-outline {
+    @apply hidden;
+  }
+  #contact-field {
+    @apply w-36;
+  }
+  #contact-text {
+    @apply w-[290px];
+  }
+  #header-about, #header-project, #contact {
+    @apply text-lg;
+  }
+  #home-logo {
+    @apply w-14 h-9 pt-2.5 pb-1.5;
+  }
+  .quote-space {
+    @apply h-[200px] px-5;
+  }
+}
+
+/* Best Friends Page Styles */
+.bestfriend-main {
+  @apply px-[8vw];
+}
+
+.bestfriend-header {
+  @apply flex justify-center font-medium uppercase text-2xl pt-14 tracking-wider py-4;
+}
+
+.bestfriend-sub-header {
+  @apply tracking-wide font-medium text-lg ;
+}
+
+.bestfriend-figma-header {
+  @apply text-center tracking-wide font-medium text-lg pt-10;
+}
+
+.bestfriend-text {
+  @apply tracking-wide text-lg leading-relaxed;
+}
+
+.image-wrapper {
+  @apply flex flex-wrap justify-center gap-4 mt-6;
+}
+
+.gallery-image {
+  @apply w-[400px] shadow-md transition-transform duration-300 hover:scale-105;
+}
+
+.gallery-image:active {
+  @apply scale-150;
+}
+
+.brainstorm-image {
+  @apply h-[242.5px] w-auto shadow-md transition-transform duration-300 hover:scale-105;
+}
+
+.brainstorm-image:active {
+  @apply scale-150;
+}
+
+.wireframe-image {
+  @apply w-[280px] shadow-md transition-transform duration-300 hover:scale-105;
+}
+
+.wireframe-image:active {
+  @apply scale-150;
+}
+
+.prototype-link {
+  @apply text-blue-600 hover:text-blue-800 underline;
+}
