@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center justify-between">
         {/* Text Content */}
         <div className="w-full lg:w-1/2 text-center lg:text-left z-10 space-y-8">
-          <h1 className="font-handwriting text-5xl sm:text-6xl md:text-7xl text-gray-800">
+          <h1 className="font-handwriting text-5xl sm:text-5xl md:text-5xl text-gray-800">
             Laura Wu
           </h1>
           <p className="font-montserrat text-xl sm:text-2xl text-gray-600">
