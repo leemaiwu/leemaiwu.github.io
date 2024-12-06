@@ -105,7 +105,7 @@ const Projects: React.FC = () => {
             >
               <div className="space-y-4">
                 <img
-                  src="src/images/bestfriends/best_friends_thumbnail.jpg"
+                  src="/src/images/bestfriends/best_friends_thumbnail.jpg"
                   alt="Best Friends Animal Society Redesign Thumbnail"
                   className="rounded-lg shadow-md transition-transform duration-300 group-hover:scale-[1.02]"
                 />
@@ -125,7 +125,7 @@ const Projects: React.FC = () => {
               <Link to="/bestfriends"
               onClick={() => window.scrollTo(0, 0)}>
   <img
-    src="src/images/bestfriends/best_friends_thumbnail.jpg"
+    src="/src/images/bestfriends/best_friends_thumbnail.jpg"
     alt="Best Friends Animal Society Redesign Thumbnail"
     className="rounded-lg shadow-md"
   />

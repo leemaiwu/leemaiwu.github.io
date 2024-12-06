@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
         <div className="w-full lg:w-1/2 mt-12 lg:mt-0 relative">
           <div className="absolute inset-0 z-10" />
           <img 
-            src="src/images/background/about_me_image3.png"
+            src="/src/images/background/about_me_image3.png"
             alt="Profile Picture"
             className="relative w-full h-[500px] object-cover object-right rounded-lg"
           />
