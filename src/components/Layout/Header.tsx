@@ -56,7 +56,8 @@ const Header: React.FC = () => {
             className="flex items-center transition-opacity duration-200 hover:opacity-80"
           >
             <img 
-              src="/src/images/icon/Frame 6.svg" 
+              // src="/src/images/icon/Frame 6.svg"
+              src="/assets/Frame 6.svg"
               alt="Laura Wu Logo" 
               className="h-12 w-auto"
             />
