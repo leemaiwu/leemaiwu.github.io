@@ -27,19 +27,26 @@ const BestFriends: React.FC = () => {
         <div>
           <h3 className="bestfriend-sub-header">Sketches</h3>
           <div className="image-wrapper">
-            <img src="/src/images/bestfriends/sketches/brainstormandwitemap.png" alt="Brainstorming Sketches" className="brainstorm-image"/>
-            <img src="/src/images/bestfriends/sketches/sketchwireframe.png" alt="Wirefram Sketches" className="gallery-image"/>
+            {/* <img src="/src/images/bestfriends/sketches/brainstormandwitemap.png" alt="Brainstorming Sketches" className="brainstorm-image"/> */}
+            <img src="/assets/brainstormandwitemap.png" alt="Brainstorming Sketches" className="brainstorm-image"/>
+            {/* <img src="/src/images/bestfriends/sketches/sketchwireframe.png" alt="Wirefram Sketches" className="gallery-image"/> */}
+            <img src="/assets/sketchwireframe.png" alt="Wirefram Sketches" className="gallery-image"/>
           </div>
         </div>
 
         <div>
           <h3 className="bestfriend-sub-header">Wireframes</h3>
           <div className="image-wrapper">
-            <img src="/src/images/bestfriends/wireframe/home.jpg" alt="Wireframe Home" className="wireframe-image"/>
-            <img src="/src/images/bestfriends/wireframe/adopt.jpg" alt="Wireframe Adopt" className="wireframe-image"/>
-            <img src="/src/images/bestfriends/wireframe/donate.jpg" alt="Wireframe Donate" className="wireframe-image"/>
-            <img src="/src/images/bestfriends/wireframe/volunteer.jpg" alt="Wireframe Volunteer" className="wireframe-image"/>
-            <img src="/src/images/bestfriends/wireframe/about.jpg" alt="Wireframe About" className="wireframe-image"/>
+            {/* <img src="/src/images/bestfriends/wireframe/home.jpg" alt="Wireframe Home" className="wireframe-image"/> */}
+            <img src="/assets/home.jpg" alt="Wireframe Home" className="wireframe-image"/>
+            {/* <img src="/src/images/bestfriends/wireframe/adopt.jpg" alt="Wireframe Adopt" className="wireframe-image"/> */}
+            <img src="/assets/adopt.jpg" alt="Wireframe Adopt" className="wireframe-image"/>
+            {/* <img src="/src/images/bestfriends/wireframe/donate.jpg" alt="Wireframe Donate" className="wireframe-image"/> */}
+            <img src="/assets/donate.jpg" alt="Wireframe Donate" className="wireframe-image"/>
+            {/* <img src="/src/images/bestfriends/wireframe/volunteer.jpg" alt="Wireframe Volunteer" className="wireframe-image"/> */}
+            <img src="/assets/volunteer.jpg" alt="Wireframe Volunteer" className="wireframe-image"/>
+            {/* <img src="/src/images/bestfriends/wireframe/about.jpg" alt="Wireframe About" className="wireframe-image"/> */}
+            <img src="/assets/about.jpg" alt="Wireframe About" className="wireframe-image"/>
           </div>
         </div>
       </section>
@@ -49,19 +56,27 @@ const BestFriends: React.FC = () => {
         <div>
           <h3 className="bestfriend-sub-header">Pattern Library</h3>
           <div className="image-wrapper">
-            <img src="/src/images/bestfriends/pattern library/typography.jpg" alt="Typography Page" className="gallery-image"/>
-            <img src="/src/images/bestfriends/pattern library/color.jpg" alt="Color Page" className="gallery-image"/>
-            <img src="/src/images/bestfriends/pattern library/identity.jpg" alt="Identity Page" className="gallery-image"/>
+            {/* <img src="/src/images/bestfriends/pattern library/typography.jpg" alt="Typography Page" className="gallery-image"/> */}
+            <img src="/assets/typography.jpg" alt="Typography Page" className="gallery-image"/>
+            {/* <img src="/src/images/bestfriends/pattern library/color.jpg" alt="Color Page" className="gallery-image"/> */}
+            <img src="/assets/color.jpg" alt="Color Page" className="gallery-image"/>
+            {/* <img src="/src/images/bestfriends/pattern library/identity.jpg" alt="Identity Page" className="gallery-image"/> */}
+            <img src="/assets/identity.jpg" alt="Identity Page" className="gallery-image"/>
           </div>
         </div>
 
         <h2 className="bestfriend-header">High-Fidelity Mockups and Prototypes</h2>
         <div className="image-wrapper">
-          <img src="/src/images/bestfriends/prototype/home.jpg" alt="Home Page" className="gallery-image"/>
-          <img src="/src/images/bestfriends/prototype/adopt.jpg" alt="Adopt Page" className="gallery-image"/>
-          <img src="/src/images/bestfriends/prototype/donate.jpg" alt="Donate Page" className="gallery-image"/>
-          <img src="/src/images/bestfriends/prototype/volunteer.jpg" alt="Volunteer Page" className="gallery-image"/>
-          <img src="/src/images/bestfriends/prototype/about.jpg" alt="About Us Page" className="gallery-image"/>
+          {/* <img src="/src/images/bestfriends/prototype/home.jpg" alt="Home Page" className="gallery-image"/> */}
+          <img src="/assets/home.jpg" alt="Home Page" className="gallery-image"/>
+          {/* <img src="/src/images/bestfriends/prototype/adopt.jpg" alt="Adopt Page" className="gallery-image"/> */}
+          <img src="/assets/adopt.jpg" alt="Adopt Page" className="gallery-image"/>
+          {/* <img src="/src/images/bestfriends/prototype/donate.jpg" alt="Donate Page" className="gallery-image"/> */}
+          <img src="/assets/donate.jpg" alt="Donate Page" className="gallery-image"/>
+          {/* <img src="/src/images/bestfriends/prototype/volunteer.jpg" alt="Volunteer Page" className="gallery-image"/> */}
+          <img src="/assets/volunteer.jpg" alt="Volunteer Page" className="gallery-image"/>
+          {/* <img src="/src/images/bestfriends/prototype/about.jpg" alt="About Us Page" className="gallery-image"/> */}
+          <img src="/assets/about.jpg" alt="About Us Page" className="gallery-image"/>
         </div>
 
         <p className="bestfriend-figma-header">

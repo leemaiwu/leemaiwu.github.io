@@ -125,7 +125,8 @@ const Projects: React.FC = () => {
               <Link to="/bestfriends"
               onClick={() => window.scrollTo(0, 0)}>
   <img
-    src="/src/images/bestfriends/best_friends_thumbnail.jpg"
+    // src="/src/images/bestfriends/best_friends_thumbnail.jpg"
+    src="/assets/best_friends_thumbnail.jpg"
     alt="Best Friends Animal Society Redesign Thumbnail"
     className="rounded-lg shadow-md"
   />
