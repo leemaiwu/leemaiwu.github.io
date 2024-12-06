@@ -70,7 +70,7 @@ const Header: React.FC = () => {
                 <button
                   key={item}
                   onClick={() => handleNavClick(item.toLowerCase())}
-                  className="relative text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm uppercase tracking-wider group"
+                  className="relative text-gray-700 hover:text-gray-900 transition-colors duration-200 text-base uppercase tracking-wider group"
                 >
                   {item}
                   <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gray-900 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
@@ -80,7 +80,7 @@ const Header: React.FC = () => {
               // Other pages navigation
               <button
                 onClick={handleReturnToHome}
-                className="relative text-gray-700 hover:text-gray-900 transition-colors duration-200 text-sm uppercase tracking-wider group"
+                className="relative text-gray-700 hover:text-gray-900 transition-colors duration-200 text-base uppercase tracking-wider group"
               >
                 Back to Portfolio
                 <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gray-900 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
