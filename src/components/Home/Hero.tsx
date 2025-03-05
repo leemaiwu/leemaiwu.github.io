@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
             Laura Wu
           </h1>
           <p className="font-montserrat text-xl sm:text-2xl text-gray-600">
-            Full Stack Developer & Software Engineer
+            UX Design & Web Development
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 max-w-lg mx-auto lg:mx-0">
             {[
