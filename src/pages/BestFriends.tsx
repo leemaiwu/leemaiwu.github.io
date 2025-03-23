@@ -28,9 +28,9 @@ const BestFriends: React.FC = () => {
           <h3 className="bestfriend-sub-header">Sketches</h3>
           <div className="image-wrapper">
             {/* <img src="/src/images/bestfriends/sketches/brainstormandwitemap.png" alt="Brainstorming Sketches" className="brainstorm-image"/> */}
-            {/* <img src="/src/images/bestfriends/sketches/sketchwireframe.png" alt="Wirefram Sketches" className="gallery-image"/> */}
+            {/* <img src="/src/images/bestfriends/sketches/sketchwireframe.png" alt="Wireframe Sketches" className="gallery-image"/> */}
             <img src="/assets/brainstormandwitemap.png" alt="Brainstorming Sketches" className="brainstorm-image"/>
-            <img src="/assets/sketchwireframe.png" alt="Wirefram Sketches" className="gallery-image"/>
+            <img src="/assets/sketchwireframe.png" alt="Wireframe Sketches" className="gallery-image"/>
           </div>
         </div>
 

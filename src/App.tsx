@@ -23,6 +23,7 @@
 import { Route, HashRouter as Router, Routes } from 'react-router-dom';
 
 import BestFriends from './pages/BestFriends';
+import FoodExpert from './pages/FoodExpert';
 import Footer from './components/Layout/Footer';
 import Header from './components/Layout/Header';
 import Home from './pages/Home';
@@ -33,6 +34,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/foodexpert" element={<FoodExpert />} />
         <Route path="/bestfriends" element={<BestFriends />} />
       </Routes>
       <Footer />

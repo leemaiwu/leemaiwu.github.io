@@ -232,12 +232,24 @@
   @apply tracking-wide font-medium text-lg ;
 }
 
+.bestfriend-sub-header-fx {
+  @apply tracking-wide font-medium text-xl ;
+}
+
 .bestfriend-figma-header {
   @apply text-center tracking-wide font-medium text-lg pt-10;
 }
 
 .bestfriend-text {
   @apply tracking-wide text-lg leading-relaxed;
+}
+
+.bestfriend-text-indent {
+  @apply tracking-wide text-lg leading-relaxed indent-8;
+}
+
+.bestfriend-text-end  {
+  @apply tracking-wide text-xl text-center leading-relaxed;
 }
 
 .image-wrapper {
@@ -250,6 +262,18 @@
 
 .gallery-image:active {
   @apply scale-150;
+}
+
+.gallery-image-fx {
+  @apply w-[750px] shadow-md transition-transform duration-300 hover:scale-105;
+}
+
+.gallery-image-fx:active {
+  @apply scale-150;
+}
+
+.pattern-library-fx {
+  @apply w-[850px];
 }
 
 .brainstorm-image {
@@ -265,6 +289,14 @@
 }
 
 .wireframe-image:active {
+  @apply scale-150;
+}
+
+.wireframe-image-fx {
+  @apply w-[300px] shadow-md transition-transform duration-300 hover:scale-105;
+}
+
+.wireframe-image-fx:active {
   @apply scale-150;
 }
 

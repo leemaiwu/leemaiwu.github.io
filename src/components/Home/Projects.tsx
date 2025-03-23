@@ -122,15 +122,43 @@ const Projects: React.FC = () => {
 
             <div className="space-y-4">
               <div className="bg-gray-100 rounded-lg">
-              <Link to="/bestfriends"
-              onClick={() => window.scrollTo(0, 0)}>
-  <img
-    // src="/src/images/bestfriends/best_friends_thumbnail.jpg"
-    src="/assets/best_friends_thumbnail.jpg"
-    alt="Best Friends Animal Society Redesign Thumbnail"
-    className="rounded-lg shadow-md"
-  />
-</Link>
+                <Link to="/foodexpert" onClick={() => window.scrollTo(0, 0)}>
+                  <img
+                    // src="src/images/foodexpert/Thumbnail - Input Ingredients.png"
+                    src="/assets/Thumbnail - Input Ingredients.png"
+                    alt="Food Expert Case Study Thumbnail"
+                    className="rounded-lg shadow-md"
+                  />
+                </Link>
+              </div>
+              <h4 className="text-xl font-semibold">
+                Food Expert: AI Recipes to Reduce Food Waste
+              </h4>
+              <p className="text-gray-600">
+                A web app that uses AI to generate recipes from ingredients you already have, reducing food waste and simplifying cooking.
+              </p>
+              <div className="flex gap-4">
+                <Link
+                  to="/foodexpert"
+                  onClick={() => window.scrollTo(0, 0)}
+                  className="flex items-center gap-2 text-gray-600 hover:text-black transition-colors"
+                >
+                  <BookText className="w-5 h-5" />
+                  <span>View Case</span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <div className="bg-gray-100 rounded-lg">
+                <Link to="/bestfriends" onClick={() => window.scrollTo(0, 0)}>
+                  <img
+                    // src="/src/images/bestfriends/best_friends_thumbnail.jpg"
+                    src="/assets/best_friends_thumbnail.jpg"
+                    alt="Best Friends Animal Society Redesign Thumbnail"
+                    className="rounded-lg shadow-md"
+                  />
+                </Link>
               </div>
               <h4 className="text-xl font-semibold">
                 Best Friends Animal Society - Redesign
