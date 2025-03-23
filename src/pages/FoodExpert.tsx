@@ -51,7 +51,7 @@ const FoodExpert: React.FC = () => {
           </p>
           <div className="image-wrapper">
             {/* <img src="/src/images/foodexpert/food expert sketches.jpg" alt="Brainstorming Sketches" className="gallery-image-fx"/> */}
-            <img src="/assets/food expert sketches.png" alt="Brainstorming Sketches" className="gallery-imag-sketch"/>
+            <img src="/assets/food expert sketches.jpg" alt="Brainstorming Sketches" className="gallery-image-fx"/>
           </div>
         </div>
         <br></br>
@@ -83,7 +83,7 @@ const FoodExpert: React.FC = () => {
           </p>
           <div className="image-wrapper">
             {/* <img src="/src/images/foodexpert/Pattern Library.png" alt="Pattern Library" className="pattern-library-fx"/> */}
-            <img src="/assets/Pattern Library.jpg" alt="Pattern Library" className="gallery-image"/>
+            <img src="/assets/Pattern Library.png" alt="Pattern Library" className="pattern-library-fx"/>
           </div>
         </div>
 
