@@ -66,10 +66,10 @@ const FoodExpert: React.FC = () => {
             {/* <img src="/src/images/foodexpert/Wireframe - AI Generating.png" alt="Wireframe AI generating" className="wireframe-image-fx"/> */}
             {/* <img src="/src/images/foodexpert/Wireframe - Suggested Recipe.png" alt="Wireframe suggested recipe" className="wireframe-image-fx"/> */}
             {/* <img src="src/images/foodexpert/Wireframe - Print Recipe.png" alt="Wireframe print recipe" className="wireframe-image-fx"/> */}
-            <img src="/assets/wfhome.jpg" alt="Wireframe input field" className="wireframe-image-fx"/>
-            <img src="/assets/wfadopt.jpg" alt="Wireframe AI generating" className="wireframe-image-fx"/>
-            <img src="/assets/wfdonate.jpg" alt="Wireframe suggested recipe" className="wireframe-image-fx"/>
-            <img src="/assets/wfvolunteer.jpg" alt="Wireframe print recipe" className="wireframe-image-fx"/>
+            <img src="/assets/Wireframe - Input Ingredients.png" alt="Wireframe input field" className="wireframe-image-fx"/>
+            <img src="/assets/Wireframe - AI Generating.png" alt="Wireframe AI generating" className="wireframe-image-fx"/>
+            <img src="/assets/Wireframe - Suggested Recipe.png" alt="Wireframe suggested recipe" className="wireframe-image-fx"/>
+            <img src="/assets/Wireframe - Print Recipe.png" alt="Wireframe print recipe" className="wireframe-image-fx"/>
           </div>
         </div>
       </section>
@@ -96,10 +96,10 @@ const FoodExpert: React.FC = () => {
             {/* <img src="/src/images/foodexpert/Prototype - AI Generating.png" alt="Prototype AI generating" className="wireframe-image-fx"/> */}
             {/* <img src="/src/images/foodexpert/Prototype - Suggested Recipe.png" alt="Prototype suggested recipe" className="wireframe-image-fx"/> */}
             {/* <img src="src/images/foodexpert/Prototype - Print Recipe.png" alt="Prototype print recipe" className="wireframe-image-fx"/> */}
-            <img src="/assets/wfhome.jpg" alt="Prototype input field" className="wireframe-image-fx"/>
-            <img src="/assets/wfadopt.jpg" alt="Prototype AI generating" className="wireframe-image-fx"/>
-            <img src="/assets/wfdonate.jpg" alt="Prototype suggested recipe" className="wireframe-image-fx"/>
-            <img src="/assets/wfvolunteer.jpg" alt="Prototype print recipe" className="wireframe-image-fx"/>
+            <img src="/assets/Prototype - Input Ingredients.png" alt="Prototype input field" className="wireframe-image-fx"/>
+            <img src="/assets/Prototype - AI Generating.png" alt="Prototype AI generating" className="wireframe-image-fx"/>
+            <img src="/assets/Prototype - Suggested Recipe.png" alt="Prototype suggested recipe" className="wireframe-image-fx"/>
+            <img src="/assets/Prototype - Print Recipe.png" alt="Prototype print recipe" className="wireframe-image-fx"/>
         </div>
 
         <h2 className="bestfriend-header">Explore Food Expert Live</h2>
